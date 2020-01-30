@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../image/homeBack.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    float: right;
+    height: 50px;
+}
+
+a {
+    padding: 20px;
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+#section1 {
+    height: 720px;
+    display: inline-block;
+    width: 100%;
+}
+
+#section2 {
+    height: 720px;
+    display: inline-block;
+    width: 100%;
+}
+
+#section3 {
+    height: 720px;
+    display: inline-block;
+    width: 100%;
+}
+.header {
+    position: relative;
+    margin: 240px auto;
+    margin-top: 100px;
+    width: 900px;
+    height: 300px;
+    text-align: center;
+}
+
+.imageNiNida img {
+    width: 20%;
+    height: 200px;
+}
+
+.container {
+    position: relative;
+    margin: 100px auto;
+    width: 1200px;
+    height: 300px;
+    text-align: center;
+}
+
+.container .box {
+    position: relative;
+    margin: 240px auto;
+    margin-top: 100px;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: white;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 50%;
+    color: black;
+}
